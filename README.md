@@ -6,7 +6,7 @@
 
 ![images](images/menu.png)
 
-## Apps pre-installed 
+## Apps Pre-installed 
 
 - firefox
 - image viewer
@@ -19,7 +19,8 @@
 - btop
 - extensions app
 - fastfetch
-## Dev tools preinstalled
+
+## Dev tools Pre-installed
 ```text gcc gcc-c++ clang clang-tools-extra cmake ninja-build make gdb lldb valgrind 
 git curl kgconf-pkg-config openssl-devel 
 rust cargo rustfmt clippy rust-analyzer 
@@ -27,14 +28,15 @@ python3 python3-pip python3-devel
 nodejs npm golang 
    ```
 
-### Clone repo :
+### Clone
 ```bash
-git clone https://github/xenxaarn/xen && cd xen
+git clone https://github.com/xenxaarn/xen && cd xen
 ```
 ### Build ISO
 
 ```bash
 ./build.sh
 ```
+
 ### License
 [MIT](LICENSE)
