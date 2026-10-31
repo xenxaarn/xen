@@ -13,6 +13,7 @@
 - kitty
 - gnome files
 - gnome settings
+- gnome disks
 - vlc
 - obsedian
 - neovim

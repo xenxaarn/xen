@@ -4,7 +4,7 @@ FROM quay.io/fedora/fedora-bootc:44
 RUN dnf install -y --setopt=install_weak_deps=False \
     gnome-shell gdm gnome-session-wayland-session gnome-control-center \
     nautilus xdg-desktop-portal-gnome xdg-user-dirs-gtk gnome-keyring \
-    loupe adw-gtk3-theme kitty neovim firefox mozilla-openh264 \
+    loupe adw-gtk3-theme kitty neovim gnome-disk-utility firefox mozilla-openh264 \
     git curl wget btop fastfetch vlc \
     NetworkManager-wifi bluez power-profiles-daemon firewalld \
     pipewire pipewire-pulseaudio wireplumber flatpak \
