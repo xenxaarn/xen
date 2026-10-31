@@ -1,0 +1,26 @@
+[org/gnome/desktop/interface]
+color-scheme='prefer-dark'
+gtk-theme='adw-gtk3-dark'
+font-name='Inter 11'
+monospace-font-name='JetBrains Mono 11'
+enable-hot-corners=false
+show-battery-percentage=true
+
+[org/gnome/desktop/background]
+picture-options='none'
+picture-uri=''
+picture-uri-dark=''
+primary-color='#000000'
+color-shading-type='solid'
+
+[org/gnome/desktop/wm/preferences]
+button-layout='appmenu:minimize,maximize,close'
+
+[org/gnome/desktop/peripherals/touchpad]
+tap-to-click=true
+
+[org/gnome/desktop/default-applications/terminal]
+exec='kitty'
+
+[org/gnome/shell]
+favorite-apps=['org.gnome.Settings.desktop', 'firefox.desktop', 'org.mozilla.firefox.desktop', 'org.gnome.Nautilus.desktop', 'kitty.desktop', 'md.obsidian.Obsidian.desktop']
