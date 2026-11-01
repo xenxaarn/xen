@@ -16,9 +16,7 @@ RUN dnf install -y --setopt=install_weak_deps=False \
 RUN dnf install -y --setopt=install_weak_deps=False \
     gcc gcc-c++ clang clang-tools-extra cmake ninja-build make gdb lldb valgrind \
     pkgconf-pkg-config openssl-devel \
-    rust cargo rustfmt clippy rust-analyzer \
     python3 python3-pip python3-devel \
-    nodejs npm golang \
  && dnf clean all
 
 COPY files/dconf /etc/dconf/db/local.d/00

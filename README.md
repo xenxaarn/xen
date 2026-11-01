@@ -15,7 +15,7 @@
 - gnome settings
 - gnome disks
 - vlc
-- obsedian
+- obsidian
 - neovim
 - btop
 - extensions app
