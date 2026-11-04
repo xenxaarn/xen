@@ -22,12 +22,23 @@
 - fastfetch
 
 ## Dev tools Pre-installed
-```text gcc gcc-c++ clang clang-tools-extra cmake ninja-build make gdb lldb valgrind 
-git curl kgconf-pkg-config openssl-devel 
-rust cargo rustfmt clippy rust-analyzer 
-python3 python3-pip python3-devel 
-nodejs npm golang 
-   ```
+ - gcc
+- gcc-c++
+- clang 
+- clang-tools-extra
+- cmake
+-  ninja-build
+- make 
+- gdb 
+- lldb 
+- valgrind 
+- git
+- curl
+-  kgconf-pkg-config
+- openssl-devel 
+- python3
+- python3-pip 
+- python3-devel 
 
 ### Clone
 ```bash
