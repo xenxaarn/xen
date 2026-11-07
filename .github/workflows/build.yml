@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: ublue-os/remove-unwanted-software@695eb75bc387dbcd9685a8e72d23439d8686cba6
-      - run: podman build --pull=newer -t ghcr.io/xenxaarn/xen:latest -f Containerfile .
+      - run: podman build --pull=newer --label org.opencontainers.image.source=https://github.com/xenxaarn/xen -t ghcr.io/xenxaarn/xen:latest -f Containerfile .
       - if: github.event_name != 'pull_request'
         run: |
           echo "${{ secrets.GITHUB_TOKEN }}" | podman login ghcr.io -u "${{ github.actor }}" --password-stdin
