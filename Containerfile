@@ -29,7 +29,8 @@ RUN printf 'export EDITOR=nvim\nexport VISUAL=nvim\n' > /etc/profile.d/editor.sh
 COPY files/flatpaks.service /usr/lib/systemd/system/flatpaks.service
 
 RUN systemctl enable gdm NetworkManager bluetooth power-profiles-daemon firewalld flatpaks \
- && systemctl set-default graphical.target
+ && systemctl set-default graphical.target \
+ && systemctl mask systemd-remount-fs.service
 
 RUN sed -i 's/^NAME=.*/NAME="Xen"/; s/^PRETTY_NAME=.*/PRETTY_NAME="Xen"/' /usr/lib/os-release
 
