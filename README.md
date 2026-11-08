@@ -1,12 +1,12 @@
 #  Xen
 
-***Xen*** is a image based,  Linux Distro built using `bootc` - no bloat & minimal
+***Xen*** is a image based,  Linux Distro built using `bootc` - no bloat & minimal and the filesystem is **readonly**
 
 ![images](images/home.png)
 
 ![images](images/menu.png)
 
-## Apps Pre-installed 
+### Apps Pre-installed 
 
 - firefox
 - image viewer
@@ -15,13 +15,17 @@
 - gnome settings
 - gnome disks
 - vlc
-- obsidian
 - neovim
 - btop
-- extensions app
 - fastfetch
 
-## Dev tools Pre-installed
+### Flatpak apps - not Pre-installed
+**note: thease apps install automtically after the os installs**
+
+- obsidian
+- extensions app
+
+### Dev tools Pre-installed
  - gcc
 - gcc-c++
 - clang 
@@ -40,14 +44,9 @@
 - python3-pip 
 - python3-devel 
 
-### Clone
+### Build ISO *Manual way*
 ```bash
-git clone https://github.com/xenxaarn/xen && cd xen
-```
-### Build ISO
-
-```bash
-./build.sh
+git clone https://github.com/xenxaarn/xen && cd xen && ./build.sh
 ```
 
 ### License
