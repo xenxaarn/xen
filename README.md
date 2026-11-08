@@ -20,7 +20,7 @@
 - fastfetch
 
 ### Flatpak apps - not Pre-installed
-**note: thease apps install automtically after the os installs**
+**note: these apps install automatically after the os installs**
 
 - obsidian
 - extensions app
