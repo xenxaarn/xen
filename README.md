@@ -1,6 +1,6 @@
 #  Xen
 
-***Xen*** is a image based,  Linux Distro built using `bootc` - no bloat & minimal and the filesystem is **readonly**
+***Xen*** is an image based, Immutable Linux Distro built using `bootc` & the filesystem is **readonly**
 
 ![images](images/home.png)
 
@@ -13,6 +13,11 @@
 `sudo bootc upgrade && sudo systemctl reboot`
 - rollback to a previous version `sudo bootc rollback && systemctl reboot`
 - enable temporary writable /usr `sudo bootc usr-overlay`
+
+### Installing apps
+- use https://flathub.org/en
+- rpm-ostree  `sudo rpm-ostree install <package-name>`
+-  Appimages
 
 ### Apps Pre-installed 
 
