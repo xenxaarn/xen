@@ -9,7 +9,6 @@ Type=oneshot
 ExecStart=/bin/sh -c '\
   /usr/bin/flatpak remote-add --if-not-exists --system flathub https://dl.flathub.org/repo/flathub.flatpakrepo && \
   /usr/bin/flatpak install -y --system flathub md.obsidian.Obsidian && \
-  /usr/bin/flatpak install -y --system flathub com.mattjakeman.ExtensionManager && \
   /usr/bin/touch /var/lib/flatpaks.done'
 Restart=on-failure
 RestartSec=30

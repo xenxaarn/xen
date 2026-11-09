@@ -6,6 +6,14 @@
 
 ![images](images/menu.png)
 
+### Update & Maintain
+- status and available updates
+` bootc status `
+- upgrade to latest version
+`sudo bootc upgrade && sudo systemctl reboot`
+- rollback to a previous version `sudo bootc rollback && systemctl reboot`
+- enable temporary writable /usr `sudo bootc usr-overlay`
+
 ### Apps Pre-installed 
 
 - firefox
@@ -23,7 +31,6 @@
 **note: these apps install automatically after the os installs**
 
 - obsidian
-- extensions app
 
 ### Dev tools Pre-installed
  - gcc
